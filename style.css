@@ -102,6 +102,14 @@ body{
     transform: rotate(50deg);
 }
 
-.cars .card.prev{
+.cards .card.prev{
     transform: rotate(130deg);
+}
+
+.cards .card.prev:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+.cards .card.prev:nth-child(3){
+    transition-delay: 0.1s;
 }
